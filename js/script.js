@@ -1,12 +1,18 @@
 ﻿import { h, render } from "preact";
 import { byeIE } from "./byeie";
 /** @jsx h */
-byeIE()
 
+byeIE()
 let host = "https://data.irozhlas.cz";
 if (window.location.hostname === "localhost") {
   host = "http://localhost";
 }
+
+function isRed(val) {
+  if (val === "") {
+    return "red";
+  }
+};
 
 function onLoad(e) {
   const data = JSON.parse(e.target.response);
@@ -19,7 +25,7 @@ function onLoad(e) {
             <div className="jmeno">{`${el.p}`}</div>
             <div className="strana">{el.s}</div>
           </div>
-          <div className="odpoved">{el.o1 || "bez odpovědi"}</div>
+          <div className={`${isRed(el.o)} odpoved`}>{el.o1 || "bez odpovědi"}</div>
         </div>
       ))}
     </div>
