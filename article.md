@@ -1,38 +1,44 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
+title: "130 hlasů, 130 tváří, 130 důvodů. Ptali jsme se, kdo a proč přišel demonstrovat na Václavské náměstí"
+perex: "Organizátoři očekávali, že při šesté demonstraci za demisi Andreje Babiše a Marie Benešové zaplní Václavské náměstí a promění ji tak v největší protest po roce 1989. Kdo ale do centra Prahy v úterý navečer dorazil? Server iROZHLAS.cz a Radiožurnál se pokusily o dosud nejcelistvější sondu – reportéři vyzpovídali přes stovku demonstrujících."
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/demo_9_190604-213227_mda.jpg?itok=_Vo38WNs
+coverimg_note: "Foto: <a href='https://www.irozhlas.cz/michaela-danelova-5270376'>Michaela Danelová, iROZHLAS.cz</a>"
 styles: []
 libraries: [] #jquery, d3, highcharts, datatables
-options: [noheader] #wide, noheader (, nopic)
+options: [] #wide, noheader (, nopic)
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
+Od prvopočátků protestů, které organizuje iniciativa Milion chvilek pro demokracii, politici hledali důvody, které do ulic přivedly desetitisíce lidí.
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve "špičce" okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+Premiér Andrej Babiš (ANO) viděl za protesty své politické protivníky. „Už to nebyla vlastně demonstrace občanů. Na pódiu vystupovaly téměř všechny politické strany. Vlastně se to změnilo na mítink před evropskými volbami,“ prohlásil před květnovými volbami do Evropského parlamentu.
 
-Naopak v noci se nejvíc lidí se "namačká" ve Vršovicích, jde o 430 osob na hektar.
+V dubnu se zase pozastavil nad tím, že „účastníci protestu měli stejné transparenty i stejné deštníky“ a vznesl řečnickou otázku, kdo protesty platí (odpověď nabídl například server [Hlidacipes.org](https://hlidacipes.org/kdo-plati-demonstrace-proti-babisovi-a-benesove-podivat-se-muze-kazdy/)).
 
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
+I ministryně spravedlnosti Marie Benešová (za ANO) má jasno v tom, kdo žádá její demisi: „Je to část veřejnosti z Prahy. Jde o přehnané reakce části veřejnosti, která se nesmířila s výsledky voleb a nesnáší pana premiéra i pana prezidenta. Ale to není většina.“
 
-<wide><i>Pokud vás zajímá, "kolik" lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte "posuvníkem" nahoře.</i></wide>
+Do organizátorů se pustil i prezident Miloš Zeman. „Oni říkají, že jsou nepolitičtí, že je to občanské sdružení. Ale jak jsem řekl, měli by se nazvat Milion chvilek za anarchii, nikoliv za demokracii,“ prohlásil. A jeho mluvčí Jiří Ovčáček rovnou připomněl komunistický puč. „Ulici, která si hraje na lidový soud jako v únoru 1948, se neustupuje,“ napsal na sociálních sítích.
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+Jenže i ulice má své tváře, své důvody. Proto desítka reportérů serveru iROZHLAS.cz a Radiožurnálu vyrazila v úterý přímo mezi demonstrující a pustila se do dosud nejrozsáhlejší ankety, kterou česká média kdy z protestů nabídla.
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+<wide>
+  <div id="anketa-wrapper"></div>
+</wide>
 
-Mobilní operátor má ["zákonnou povinnost"](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+Více než stovce protestujících položili jednoduchou otázkou: Proč jste přišli? Snažili se přitom ptát průřezově. Václavské náměstí si rozdělili do sektorů tak, aby pokryli celou jeho plochu; hlasy sbírali přímo v jádru – před pódiem – i na okrajích demonstrace. Oslovené požádali o jméno, věk, bydliště a povolání. Pokud se někdo odmítl představit, nepřemlouvali ho. Z deseti oslovených v průměru odmítli dva. Nejčastější důvod byl, že se nechtěli fotit.
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy "zbavit" identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+A proč tedy přišli? Drtivá většina na prvním místě jmenovala premiéra Andreje Babiše, přičemž často zmiňovali jeho předlistopadovou minulost. Opakovaně zaznělo i jméno prezidenta Zemana a ministryně Benešové. Často se vzpomínalo i na listopad 1989.
+
+„Tady jsem v roce 1989 demonstroval, tady jsem byl dvakrát zlitý vodním dělem, tady mě zatknuli a odvezli do Mělníka, kde mi dali pokutu, že jsem se nerozešel. Jsem tu, protože mě popuzuje, že tenhle člověk, bývalý estébák, chodí dávat o půlnoci na Národní třídu věnec,“ řekl například třiasedmdesátiletý Jiří Kříž z Třeboně. 
+
+Nejaktuálnější reakce premiéra Babiše i ministryně Benešové zní obdobně. „Já ty demonstrace nesleduju, takže žádný komentář vám nedám. Před chvíli jsem přijela ze sněmovny, takže vůbec nevím, co je na Václavském náměstí,“ řekla v úterý večer Radiožurnálu Benešová. 
+
+A Babiš na dotaz serveru Novinky.cz, zda demonstraci sledoval, odpověděl: „Nesleduju, proč bych to sledoval? Je hezky, tak oni tam chodí teďka na koncerty.“
+
+<!-- wide box -->
+<div class="b-inline"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
+    <p>
+    <b>Rekordní demonstrace?</b>
+    </p>
+  <p>
+    </p><p>Úterní demonstrace na Václavském náměstí se podle pořadatelské iniciativy Milion chvilek účastnilo zhruba 120 000 lidí. Policie ani úřady odhady nezveřejnily. Dosud největší demonstrací po roce 1989 byla v dubnu 2012, kdy lidé protestovali proti reformám tehdejší vlády Petra Nečase (ODS). Podle tehdejších odhadů se jí účastnilo až 150 000 lidí, podle policie šlo o 90 000 lidí. V listopadu 1997 demonstrovalo proti politice vlády Václava Klause (ODS) na Staroměstském náměstí v Praze až 120 000 lidí.</p><p>
+Demonstrace za demisi Benešové se konají každý týden od konce dubna, v Praze byla popáté. Minulý týden se demonstrace v Praze nekonala, přesunula se do českých měst.</p>Zdroj: ČTK
+    <p></p>
+</div></div></div></div>
