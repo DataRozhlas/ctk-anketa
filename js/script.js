@@ -22,10 +22,10 @@ function onLoad(e) {
         <div className="respondent">
           <img className="portret" src={`${host}/ctk-anketa/img/${el.f}`} alt={el.jm} />
           <div className="bio">
-            <div className="jmeno">{`${el.p}`}</div>
+            <div className="jmeno">{`${el.j} ${el.p}`}</div>
             <div className="strana">{el.s}</div>
           </div>
-          <div className={`${isRed(el.o)} odpoved`}>{el.o1 || "bez odpovědi"}</div>
+          <div className={`${isRed(el.o1)} odpoved`}>{el.o1 || "bez odpovědi"}</div>
         </div>
       ))}
     </div>

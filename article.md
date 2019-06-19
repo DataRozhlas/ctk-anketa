@@ -1,44 +1,68 @@
-title: "130 hlasů, 130 tváří, 130 důvodů. Ptali jsme se, kdo a proč přišel demonstrovat na Václavské náměstí"
-perex: "Organizátoři očekávali, že při šesté demonstraci za demisi Andreje Babiše a Marie Benešové zaplní Václavské náměstí a promění ji tak v největší protest po roce 1989. Kdo ale do centra Prahy v úterý navečer dorazil? Server iROZHLAS.cz a Radiožurnál se pokusily o dosud nejcelistvější sondu – reportéři vyzpovídali přes stovku demonstrujících."
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/demo_9_190604-213227_mda.jpg?itok=_Vo38WNs
-coverimg_note: "Foto: <a href='https://www.irozhlas.cz/michaela-danelova-5270376'>Michaela Danelová, iROZHLAS.cz</a>"
+title: "‚Volba je tajná, nechte se překvapit.‘ Podpoří poslanci ANO kontroverzního publicistu Semína do Rady ČTK?"
+perex: "„Volba je až v červenci, teprve se rozhodnu“ či „nechte se překvapit“. I takové jsou reakce poslanců hnutí ANO, kteří odpovídali v anketě serveru iROZHLAS.cz na dotazy týkající se kritizovaného kandidáta SPD do Rady České tiskové kanceláře (ČTK) Michala Semína. Premiér Andrej Babiš na ně v úterý apeloval, aby Semína nepodpořili. Koaliční ČSSD se totiž proti němu ostře ohradila. Z došlých odpovědí vyplývá, že pro vládní poslance je to citlivé téma a většina z nich o nadcházející volbě nechce mluvit."
+coverimg:
+coverimg_note: ""
 styles: []
 libraries: [] #jquery, d3, highcharts, datatables
-options: [] #wide, noheader (, nopic)
+options: [noheader, nopic] #wide, noheader (, nopic)
 ---
-Od prvopočátků protestů, které organizuje iniciativa Milion chvilek pro demokracii, politici hledali důvody, které do ulic přivedly desetitisíce lidí.
 
-Premiér Andrej Babiš (ANO) viděl za protesty své politické protivníky. „Už to nebyla vlastně demonstrace občanů. Na pódiu vystupovaly téměř všechny politické strany. Vlastně se to změnilo na mítink před evropskými volbami,“ prohlásil před květnovými volbami do Evropského parlamentu.
+Buď Semín, nebo konec koalice. S takovou zkraje týdne přišel šéf ČSSD Jan Hamáček, který zvolení místopředsedy spolku Akce D.O.S.T. Michala Semína s pomocí hlasů ANO označil za nepřijatelné. Kontroverzní publicista v prvním kole volby získal 83 hlasů, ke zvolení mu tak chybělo jen šest.
 
-V dubnu se zase pozastavil nad tím, že „účastníci protestu měli stejné transparenty i stejné deštníky“ a vznesl řečnickou otázku, kdo protesty platí (odpověď nabídl například server [Hlidacipes.org](https://hlidacipes.org/kdo-plati-demonstrace-proti-babisovi-a-benesove-podivat-se-muze-kazdy/)).
+A přestože volba byla tajná, je jasné, že ruku pro museli zvednout i někteří vládní zákonodárci. Babiš to ovšem odmítl. Řekl, že jeho hnutí kandidáta navrženého hnutím Tomia Okamury nevolilo a volit nebude.
 
-I ministryně spravedlnosti Marie Benešová (za ANO) má jasno v tom, kdo žádá její demisi: „Je to část veřejnosti z Prahy. Jde o přehnané reakce části veřejnosti, která se nesmířila s výsledky voleb a nesnáší pana premiéra i pana prezidenta. Ale to není většina.“
+Server iROZHLAS.cz proto všechny poslance hnutí ANO obeslal s dotazem, zda považují Semína za problematického kandidáta a zda ho případně v nadcházejícím druhém kole volby, která se uskuteční v červenci, podpoří.
 
-Do organizátorů se pustil i prezident Miloš Zeman. „Oni říkají, že jsou nepolitičtí, že je to občanské sdružení. Ale jak jsem řekl, měli by se nazvat Milion chvilek za anarchii, nikoliv za demokracii,“ prohlásil. A jeho mluvčí Jiří Ovčáček rovnou připomněl komunistický puč. „Ulici, která si hraje na lidový soud jako v únoru 1948, se neustupuje,“ napsal na sociálních sítích.
+Z celkem 78 zákonodárců jich na zaslané dotazy reagovalo 39, tedy polovina. Mnozí až po několika urgencích. Většina došlých odpovědí byla ovšem vyhýbavá. „Jelikož je hlasování tajné, tak se nevyjadřuji k žádným kandidátům,“ reagoval třeba Josef Hájek.
 
-Jenže i ulice má své tváře, své důvody. Proto desítka reportérů serveru iROZHLAS.cz a Radiožurnálu vyrazila v úterý přímo mezi demonstrující a pustila se do dosud nejrozsáhlejší ankety, kterou česká média kdy z protestů nabídla.
+Podobně se vyjádřila také třeba Monika Červíčková: „Volba do Rady ČTK není na pořadu této schůze. Omlouvám se, ale tajné volby nebudu komentovat.“ Na dotazy odpověděla přitom krátce poté, co Babiš na své zákonodárce apeloval, aby Semína do Rady ČTK nepodpořili.
 
 <wide>
   <div id="anketa-wrapper"></div>
 </wide>
 
-Více než stovce protestujících položili jednoduchou otázkou: Proč jste přišli? Snažili se přitom ptát průřezově. Václavské náměstí si rozdělili do sektorů tak, aby pokryli celou jeho plochu; hlasy sbírali přímo v jádru – před pódiem – i na okrajích demonstrace. Oslovené požádali o jméno, věk, bydliště a povolání. Pokud se někdo odmítl představit, nepřemlouvali ho. Z deseti oslovených v průměru odmítli dva. Nejčastější důvod byl, že se nechtěli fotit.
+Z reakcí vládních zákonodárců navíc vyplývá, že o Semínovi nechtějí mluvit. Třeba hlavní manažer hnutí Jan Richter na dotazy zaslané skrze SMS zprávu vůbec nereagoval, a úspěšná nebyla ani snaha kontaktovat ho telefonicky. „Tak vám strašně děkuji za ten dotaz a mějte se hezky,“ položil telefon ihned po položení otázky.
 
-A proč tedy přišli? Drtivá většina na prvním místě jmenovala premiéra Andreje Babiše, přičemž často zmiňovali jeho předlistopadovou minulost. Opakovaně zaznělo i jméno prezidenta Zemana a ministryně Benešové. Často se vzpomínalo i na listopad 1989.
+Že je téma pro poslance hnutí ANO citlivé, potvrzuje také reakce Přemysla Mališe. „Volba je tajná. Nechte se, prosím, překvapit. Kandidát neprojde, neboť už vyhrocená situace nikoho nebaví. Mluvit o tom opravdu nechci. Mějte pochopení,“ uvedl.
 
-„Tady jsem v roce 1989 demonstroval, tady jsem byl dvakrát zlitý vodním dělem, tady mě zatknuli a odvezli do Mělníka, kde mi dali pokutu, že jsem se nerozešel. Jsem tu, protože mě popuzuje, že tenhle člověk, bývalý estébák, chodí dávat o půlnoci na Národní třídu věnec,“ řekl například třiasedmdesátiletý Jiří Kříž z Třeboně. 
+## Zahlcená schránka
 
-Nejaktuálnější reakce premiéra Babiše i ministryně Benešové zní obdobně. „Já ty demonstrace nesleduju, takže žádný komentář vám nedám. Před chvíli jsem přijela ze sněmovny, takže vůbec nevím, co je na Václavském náměstí,“ řekla v úterý večer Radiožurnálu Benešová. 
+Důvodem, proč někteří poslanci hnutí ANO o svém postoji odmítají mluvit, může být také iniciativa na podporu jednoho ze Semínových protikandidátů, analytika nových médií Josefa Šlerky. Ta vyzývá k tomu, aby lidé nespokojení s kandidátem SPD poslancům psali e-maily.
 
-A Babiš na dotaz serveru Novinky.cz, zda demonstraci sledoval, odpověděl: „Nesleduju, proč bych to sledoval? Je hezky, tak oni tam chodí teďka na koncerty.“
+Na plnou poštovní schránku kvůli této iniciativě si stěžoval třeba Petr Sadovský. „Já pana Semína neznám a ani se nemyslím, že bych ho podporoval v prvním kole. Navíc je to tajná volba. Ve chvíli, kdy jsem zavalený stovkami e-mailů, tak se k tomu opravdu nechci vyjadřovat,“ napsal zákonodárce.
 
-<!-- wide box -->
-<div class="b-inline"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
+Někteří poslanci argumentovali také tím, že volba do orgánu ČTK není zatím na pořadu dne či že Semína ani neznají. „Budu se rozhodovat, až ta červencová volba nastane. Jednotlivé kandidáty neznám a musím se s nimi seznámit,“ řekl redakci Jiří Bláha.
+
+Přestože někteří poslanci ANO o svém postoji mlžili, nikdo z nich podporu Semínovi výslovně nevyjádřil.
+
+<div class="b-inline b-inline--right"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
     <p>
-    <b>Rekordní demonstrace?</b>
+    <b>Volba do Rady ČTK</b>
     </p>
   <p>
-    </p><p>Úterní demonstrace na Václavském náměstí se podle pořadatelské iniciativy Milion chvilek účastnilo zhruba 120 000 lidí. Policie ani úřady odhady nezveřejnily. Dosud největší demonstrací po roce 1989 byla v dubnu 2012, kdy lidé protestovali proti reformám tehdejší vlády Petra Nečase (ODS). Podle tehdejších odhadů se jí účastnilo až 150 000 lidí, podle policie šlo o 90 000 lidí. V listopadu 1997 demonstrovalo proti politice vlády Václava Klause (ODS) na Staroměstském náměstí v Praze až 120 000 lidí.</p><p>
-Demonstrace za demisi Benešové se konají každý týden od konce dubna, v Praze byla popáté. Minulý týden se demonstrace v Praze nekonala, přesunula se do českých měst.</p>Zdroj: ČTK
+    </p><p>Sedmičlenná Rada ČTK je orgán, jehož prostřednictvím veřejnost uplatňuje své právo kontroly veřejnoprávní agentury. Sněmovna zatím na dvě místa v radě, která se uvolní 20. června, nikoho nezvolila. Ke zvolení bylo nutných 89 hlasů, Semín jich v tajné volbě získal 83. Do druhého kola postoupili také zastupitel hnutí ANO v Praze 3 David Soukup, ředitel Nadačního fondu nezávislé žurnalistiky Josef Šlerka, nominovaný Piráty a KDU-ČSL, a bývalý předseda rady Tomáš Mrázek, navržený ODS.
     <p></p>
 </div></div></div></div>
+
+Původně se o nových členech Rady mělo rozhodovat už tuto středu, z podnětu šéfa poslaneckého klubu Jaroslava Faltýnka se ale volba posunula až na červenec. Faltýnek to zdůvodnil snahou o „zklidnění situace“. Mimochodem: sám na dotazy serveru IROZHLAS.cz i přes opakované urgence neodpověděl.
+
+## Zhoubné názory?
+
+Mezi zákonodárci ANO se ale najdou i tací, kteří se jasně postavili proti zvolení Semína. Jde třeba o ministra zdravotnictví Adama Vojtěcha (za ANO), hejtmany Ivo Vondráka a Ladislava Oklešťka, poslance Miloslava Janulíka, Radka Zlesáka či Rostislava Vyzulu.
+
+„Nepodpořím tohoto kandidáta. Nejvíce mi vadí jeho antisemitismus. Takový postoj je zhoubný a s takovými názory nemůže někdo působit ve vážené instituci ČTK,“ napsal redakci Vyzula. Semína odmítla volit také třeba bývalá ministryně Karla Šlechtová. Jasné „ne“ řeklo podle došlých odpovědí z ANO celkem 13 poslanců.
+
+Proti volbě Semína se postavila mimo jiné Federace židovských obcí, podle níž vystupuje antijudaisticky. Ve sněmovně minulý týden některé jeho texty a výroky kritizovali také Piráti či ODS, když se uskutečnilo první kolo volby. Poslankyně Olga Richterová (Piráti) v souvislosti s nimi nařkla Semína ze šíření nenávisti a šéf poslanců ODS Zbyněk Stanjura mluvil o spikleneckých teoriích.
+
+Některé Semínovy výroky sesbíral pořad České televize Newsroom ČT24, přečíst si je můžete v následujícím twitterovém příspěvku:
+
+<div class="embed">
+<blockquote class="twitter-tweet" data-lang="en"><p lang="cs" dir="ltr">Poslanecká sněmovna dnes do Rady ČTK žádného nového člena nezvolila. Nejvíc hlasů, 83, ale získal Michal Semín. Na jeho kontroverzní výroky dnes upozorňovali i opoziční poslanci. Některé připomínáme i my. Objevily se v rozhovorech pro Parlamentní listy a časopis Reflex. <a href="https://t.co/1ynKRC5iIG">pic.twitter.com/1ynKRC5iIG</a></p>&mdash; Newsroom ČT24 (@NewsroomCT24) <a href="https://twitter.com/NewsroomCT24/status/1136299588598620160?ref_src=twsrc%5Etfw">June 5, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+Semín obvinění, že je antisemitou nebo že šíří nenávist, odmítl. Minulý týden ČTK řekl, že je z teologického hlediska kritický k nekatolickým náboženstvím, ale je stoupencem náboženské snášenlivosti. Dlouhodobě podle svých slov vystupuje jako představitel katolického tradicionalismu.
+
+V úterý večer se kvůli napětí v koalici sešla také koaliční rada. Zástupci ANO a ČSSD se na schůzce dohodli, že personální nominace ve sněmovně a volby do sněmovních i mimosněmovních orgánů spolu budou předem řešit předsedové poslaneckých klubů Jaroslav Faltýnek a Jan Chvojka, aby se příště předešlo rozporům.
+
+

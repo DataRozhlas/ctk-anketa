@@ -2,13 +2,11 @@
 import pandas as pd
 import json
 
-
-
 #%%
 d = pd.read_csv('./data/data.csv')
 
 #%%
-d = d[['p', 's', 'o', 'o1', 'f']]
+d = d[['j', 'p', 's', 'o', 'o1', 'f']]
 
 d.f = d.f.apply(lambda x: x.split('/')[-1])
 
